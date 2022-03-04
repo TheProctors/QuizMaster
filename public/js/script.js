@@ -1,13 +1,14 @@
 // jQiuery [
+console.log("HELLO");
 // Function to load the navigation bar onto #main-menu id tag in html files.
 $(function(){
-    $('#main-menu').load('../common/navbar.html');
+    $('#main-menu').load('./common/navbar.html');
 })
 
 
 // Function to load the footer bar onto #footer id tag in html files.
 $(function(){
-    $('#footer').load('../common/footer.html');
+    $('#footer').load('./common/footer.html');
 })
 
 // End of jQuery ]
@@ -131,5 +132,5 @@ const setupUserUI = (user) =>{
     }
 }
 
-// END OF FIREBASE SECTION
+// // END OF FIREBASE SECTION
 
