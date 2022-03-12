@@ -8,19 +8,19 @@ body {
 
 body {
     background-color: #ebebeb;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
 }
 
 
 /* the container for the main menu properties.  */
 
 .main-menu {
-    background-color: #6FB3B8;
+    background-color: #6fb3b8;
     /*border-top-right-radius: 10px*/
     /*border-bottom-right-radius: 10px; Commented out to take rounding off menu bar. Leaves no whitespace
         where header meets menu bar.
     */
-    box-shadow: 0px 0px 20px #BADFE7;
+    box-shadow: 0px 0px 20px #badfe7;
     width: 65px;
     height: 100vh;
     position: fixed;
@@ -29,7 +29,7 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
     white-space: nowrap;
-    transition: .3s ease;
+    transition: 0.3s ease;
 }
 
 
@@ -45,7 +45,7 @@ body {
 
 .home a {
     text-decoration: none;
-    color: #F6F6F2;
+    color: #f6f6f2;
 }
 
 
@@ -53,7 +53,7 @@ body {
 
 .menu-options a {
     text-decoration: none;
-    color: #F6F6F2;
+    color: #f6f6f2;
 }
 
 
@@ -61,7 +61,7 @@ body {
 
 .main-menu .home .menu-item {
     background-color: #388087;
-    color: #F6F6F2;
+    color: #f6f6f2;
     font-size: 16px;
 }
 
@@ -69,7 +69,7 @@ body {
 /* Properties for the menu items. */
 
 .main-menu .menu-item {
-    background-color: #6FB3B8;
+    background-color: #6fb3b8;
     padding: 10px;
     font-size: 16px;
 }
@@ -85,7 +85,7 @@ body {
 /* Properties for menu items during hovering. */
 
 .main-menu .menu-item:hover {
-    background-color: #BADFE7;
+    background-color: #badfe7;
     cursor: pointer;
 }
 
@@ -100,7 +100,7 @@ body {
 /* Properties for the fa class */
 
 .main-menu .menu-item .fa {
-    color: #BADFE7;
+    color: #badfe7;
     width: 40px;
     font-size: 25px;
     padding: 10px;
@@ -125,7 +125,7 @@ body {
 /* Draggable scrolling handle */
 
 ::-webkit-scrollbar-thumb {
-    background: #BADFE7;
+    background: #badfe7;
     border-radius: 10px;
 }
 
@@ -133,7 +133,7 @@ body {
 /* Properties for dropdown content */
 
 .dropdown {
-    color: #F6F6F2;
+    color: #f6f6f2;
     position: relative;
 }
 
@@ -141,7 +141,7 @@ body {
     display: none;
     position: relative;
     right: 0;
-    background-color: #BADFE7;
+    background-color: #badfe7;
     min-width: 250px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
