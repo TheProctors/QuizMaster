@@ -1,8 +1,8 @@
 // jQiuery [
-console.log("HELLO");
 // Function to load the navigation bar onto #main-menu id tag in html files.
 $(function() {
     $("#main-menu").load("./common/navbar.html");
+    console.log("loaded menu bar!!");
 });
 
 // Function to load the footer bar onto #footer id tag in html files.
@@ -11,7 +11,7 @@ $(function() {
 });
 
 // End of jQuery ]
-
+// Start of firebase
 // Import statements for google firebase
 import { getFirestore, collection, getDocs } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
@@ -100,31 +100,40 @@ if (document.querySelector(".log-in")) {
 }
 
 // Tracks whether user is logged in or not (tracks state).
-onAuthStateChanged(auth, (user) => {
-    console.log("user status changed:, ", user);
-    if (user) {
-        setupUserUI(user);
-    } else {
-        setupUserUI(null);
-    }
-});
+setTimeout(() => {
+    onAuthStateChanged(auth, (user) => {
+        console.log("user status changed:, ", user);
+        if (user) { // Will set up the menu bar options.
+            setupUserUI(user);
+            console.log("loaded menu bar signed in!!");
+        } else {
+            setupUserUI(null);
+            console.log("loaded menu bar signed out!!");
+        }
+    });
+}, 100);
 
 // Hide menu options depending if user is logged out or in.
-
 const setupUserUI = (user) => {
-    const loggedOutLinks = document.querySelectorAll(".logged-out");
-    const loggedInLinks = document.querySelectorAll(".logged-in");
+    const loggedOutLinks = document.querySelectorAll(".logged-out"); // selects the menu options when logged out.
+    const loggedInLinks = document.querySelectorAll(".logged-in"); // selects the menu options when logged in.
+    const defaultLinks = document.querySelectorAll(".default"); // selects the menu options outside of logged in/out.
 
-    if (user) {
+    if (user) { // displaying menu options for menu bar. 
         console.log("setupUserUI, logged in.");
         // toggle UI elements
+        defaultLinks.forEach((item)=>(item.style.display = "block"));
         loggedInLinks.forEach((item) => (item.style.display = "block"));
         loggedOutLinks.forEach((item) => (item.style.display = "none"));
     } else {
         console.log("setupUserUI, not logged in.");
         // toggle UI elements
-        loggedInLinks.forEach((item) => (item.style.display = "none"));
-        loggedOutLinks.forEach((item) => (item.style.display = "block"));
+        if(document.querySelector("#main-menu")){
+            defaultLinks.forEach((item)=>(item.style.display = "block"));
+            loggedInLinks.forEach((item) => (item.style.display = "none"));
+            loggedOutLinks.forEach((item) => (item.style.display = "block"));
+            console.log("IF!!!!!");
+        }
     }
 };
 
