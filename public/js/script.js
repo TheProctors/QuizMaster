@@ -108,7 +108,7 @@ setTimeout(() => {
             setupUserUI(null);
         }
     });
-}, 100);
+}, 150);
 
 // Hide menu options depending if user is logged out or in.
 const setupUserUI = (user) => {
