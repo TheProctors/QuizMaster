@@ -2,7 +2,6 @@
 // Function to load the navigation bar onto #main-menu id tag in html files.
 $(function() {
     $("#main-menu").load("./common/navbar.html");
-    console.log("loaded menu bar!!");
 });
 
 // Function to load the footer bar onto #footer id tag in html files.
@@ -105,10 +104,8 @@ setTimeout(() => {
         console.log("user status changed:, ", user);
         if (user) { // Will set up the menu bar options.
             setupUserUI(user);
-            console.log("loaded menu bar signed in!!");
         } else {
             setupUserUI(null);
-            console.log("loaded menu bar signed out!!");
         }
     });
 }, 100);
@@ -132,7 +129,6 @@ const setupUserUI = (user) => {
             defaultLinks.forEach((item)=>(item.style.display = "block"));
             loggedInLinks.forEach((item) => (item.style.display = "none"));
             loggedOutLinks.forEach((item) => (item.style.display = "block"));
-            console.log("IF!!!!!");
         }
     }
 };
