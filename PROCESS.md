@@ -21,3 +21,24 @@ Each member was invited to become a user through Azure to access the production 
 ### New Guest Configuration
 
 Guest will be added as users with a guest perspective. This way they will not be able to access the same abilities as the team. 
+
+### What constitutes "done"
+
+We define done in two ways. The first is in relation to user stories. A user story is done when:
+
+• The hypothetical user in the story can successfully complete the desired action.
+
+• For example, if the user story is “As a user, I want to use a link to visit the HTML home page for the Quiz Master site,” this story is “done” when we have a static page link that takes the user to a HTML page with CSS.
+
+• The user story or the desired feature can be executed via the production branch by a user. 
+
+The second definition applies to general site/sprint requirements. Done in this case means the task has no more work to be done and has been submitted. For example, part of a sprint requirement was creating a flyer to attract users. This task was considered done when it was submitted to the professor and put onto GitHub. In general, tasks under this umbrella should meet these criteria:
+
+• The code is error free when run in the testing branch.
+
+• The code is well commented/documented
+
+• The code has been reviewed by another team member
+
+• The code is implemented in the production branch and the production branch runs as intended.
+
