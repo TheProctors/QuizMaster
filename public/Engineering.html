@@ -44,7 +44,20 @@
                         <p>Time Limit: None</p>
                         <p>Attempts: Unlimited</p>
                         <div id="startButton">
-                            <button name="start" type="button" onclick="#">Start</button>
+                            <button name="start" type="button" onclick="myFunction()">Start</button>
+                            <script>
+                                function myFunction() {
+                                    
+                                  if (confirm("You're about to take a quiz!")) {
+                                    window.open("quizPage.html", '_blank')    
+                                
+                                  } else {
+                                
+                                  }
+                                  
+                                }
+                                </script>
+
                         </div>
             </div>
             <div id="quizBox">
@@ -56,7 +69,7 @@
                         <p>Time Limit: None</p>
                         <p>Attempts: Unlimited</p>
                         <div id="startButton">
-                            <button name="start" type="button" onclick="#">Start</button>
+                            <button name="start" type="button" onclick="myFunction()">Start</button>
                         </div>
             </div>
             <div>
