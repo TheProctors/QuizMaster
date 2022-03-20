@@ -22,7 +22,7 @@
         <!--siteHeading div controls the title of the webpage.-->
         <div id="siteHeading">
             <h1>Quiz Master</h1>
-            
+
         </div>
         <!--The menu bar and the main content of the page are stored in a container div.
             This helps ensure a column style layout.-->
@@ -32,9 +32,11 @@
         <div id="main-menu"></div>
 
         <!--Main content here.-->
-        
+
         <div id="quizList">
-            <div id="courseHeading"><h1>Quizzes on Mathematics</h1></div>
+            <div id="courseHeading">
+                <h1>Quizzes on Mathematics</h1>
+            </div>
             <div id="quizBox">
                 <h4>Math Quiz1</h4>
                 <p>This is a math quiz description.
@@ -44,19 +46,8 @@
                         <p>Time Limit: None</p>
                         <p>Attempts: Unlimited</p>
                         <div id="startButton">
+                            <!-- I have added the script code for function in bundle.js no need to declare myfunction() here-->
                             <button name="start" type="button" onclick="myFunction()">Start</button>
-                            <script>
-                                function myFunction() {
-                                    
-                                  if (confirm("You're about to take a quiz!")) {
-                                    window.open("quizPage.html", '_blank')    
-                                
-                                  } else {
-                                
-                                  }
-                                  
-                                }
-                                </script>
                         </div>
             </div>
             <div id="quizBox">

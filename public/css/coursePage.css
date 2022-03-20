@@ -26,10 +26,12 @@ body {
     background-color: #badfe7;
     margin-bottom: 20px;
 }
-#courseHeading{
+
+#courseHeading {
     text-align: left;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
+
 h4 {
     text-align: top;
 }

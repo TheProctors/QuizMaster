@@ -11,10 +11,7 @@
     <link rel="stylesheet" href="./css/indexStyleSheet.css" />
     <link rel="stylesheet" href="./css/coursePage.css" />
     <!--jQuery source file-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-    </script>
-
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -22,7 +19,6 @@
         <!--siteHeading div controls the title of the webpage.-->
         <div id="siteHeading">
             <h1>Quiz Master</h1>
-            
         </div>
         <!--The menu bar and the main content of the page are stored in a container div.
             This helps ensure a column style layout.-->
@@ -32,59 +28,48 @@
         <div id="main-menu"></div>
 
         <!--Main content here.-->
-        
-        <div id="quizList">
-            <div id="courseHeading"><h1>Quizzes on Science</h1></div>
-            <div id="quizBox">
-                <h4>Science Quiz1</h4>
-                <p>This is a science quiz description.
-                    <p>
-                        <p>Questions: 7</p>
-                        <p>Maximum Points: 24 Points</p>
-                        <p>Time Limit: None</p>
-                        <p>Attempts: Unlimited</p>
-                        <div id="startButton">
-                            <button name="start" type="button" onclick="myFunction()">Start</button>
-                            <script>
-                                function myFunction() {
-                                    
-                                  if (confirm("You're about to take a quiz!")) {
-                                    window.open("quizPage.html", '_blank')    
-                                
-                                  } else {
-                                
-                                  }
-                                  
-                                }
-                                </script>
-                        </div>
-            </div>
-            <div id="quizBox">
-                <h4>Science Quiz2</h4>
-                <p>This is a science quiz description.
-                    <p>
-                        <p>Questions: 7</p>
-                        <p>Maximum Points: 24 Points</p>
-                        <p>Time Limit: None</p>
-                        <p>Attempts: Unlimited</p>
-                        <div id="startButton">
-                            <button name="start" type="button" onclick="myFunction()">Start</button>
-                        </div>
-            </div>
-            <div>
-                <div>
 
+        <div id="quizList">
+            <div id="courseHeading">
+                <h1>Quizzes on Science</h1>
+            </div>
+            <div id="quizBox">
+                <h4>Science Quiz 1</h4>
+                <p>This is a science quiz description.</p>
+                <p></p>
+                <p>Questions: 7</p>
+                <p>Maximum Points: 24 Points</p>
+                <p>Time Limit: None</p>
+                <p>Attempts: Unlimited</p>
+                <div id="startButton">
+                    <!-- I have added the script code for function in bundle.js no need to declare myfunction() here-->
+                    <button name="start" type="button" onclick="myFunction()">
+              Start
+            </button>
                 </div>
             </div>
-
+            <div id="quizBox">
+                <h4>Science Quiz 2</h4>
+                <p>This is a science quiz description.</p>
+                <p></p>
+                <p>Questions: 7</p>
+                <p>Maximum Points: 24 Points</p>
+                <p>Time Limit: None</p>
+                <p>Attempts: Unlimited</p>
+                <div id="startButton">
+                    <button name="start" type="button" onclick="myFunction()">
+              Start
+            </button>
+                </div>
+            </div>
         </div>
-        <!--Footer being referenced by jQuery to open up footer html-->
-        <div id="footer"></div>
-        <!--jQuery source file-->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-        </script>
-        <!--JavaScript project file-->
-        <script src="./dist/bundle.js"></script>
+    </div>
+    <!--Footer being referenced by jQuery to open up footer html-->
+    <div id="footer"></div>
+    <!--jQuery source file-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--JavaScript project file-->
+    <script src="./dist/bundle.js"></script>
 </body>
 
 </html>

@@ -102,7 +102,8 @@ if (document.querySelector(".log-in")) {
 setTimeout(() => {
     onAuthStateChanged(auth, (user) => {
         console.log("user status changed:, ", user);
-        if (user) { // Will set up the menu bar options.
+        if (user) {
+            // Will set up the menu bar options.
             setupUserUI(user);
         } else {
             setupUserUI(null);
@@ -116,17 +117,18 @@ const setupUserUI = (user) => {
     const loggedInLinks = document.querySelectorAll(".logged-in"); // selects the menu options when logged in.
     const defaultLinks = document.querySelectorAll(".default"); // selects the menu options outside of logged in/out.
 
-    if (user) { // displaying menu options for menu bar. 
+    if (user) {
+        // displaying menu options for menu bar.
         console.log("setupUserUI, logged in.");
         // toggle UI elements
-        defaultLinks.forEach((item)=>(item.style.display = "block"));
+        defaultLinks.forEach((item) => (item.style.display = "block"));
         loggedInLinks.forEach((item) => (item.style.display = "block"));
         loggedOutLinks.forEach((item) => (item.style.display = "none"));
     } else {
         console.log("setupUserUI, not logged in.");
         // toggle UI elements
-        if(document.querySelector("#main-menu")){
-            defaultLinks.forEach((item)=>(item.style.display = "block"));
+        if (document.querySelector("#main-menu")) {
+            defaultLinks.forEach((item) => (item.style.display = "block"));
             loggedInLinks.forEach((item) => (item.style.display = "none"));
             loggedOutLinks.forEach((item) => (item.style.display = "block"));
         }
