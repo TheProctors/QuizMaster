@@ -1,6 +1,10 @@
 /* Styling is shared with sign up and sign in page due to similarities. */
 
-* {
+
+/* We are already getting this stuff from the indexStyleSheet.css so we don't need to add this here again that's why I have commented out it(yasir)*/
+
+
+/* {
     margin: 0;
     padding: 0;
 }
@@ -9,6 +13,7 @@ html,
 body {
     height: 100%;
 }
+*/
 
 
 /* wrapper for the body */

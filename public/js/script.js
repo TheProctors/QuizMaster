@@ -136,3 +136,15 @@ const setupUserUI = (user) => {
 };
 
 // // END OF FIREBASE SECTION
+
+/* Why html files can't access to anything in script.js like this function not working in science, history .. html files 
+/*
+function myFunction() {
+    let confirmAction = confirm("You're about to take a quiz.");
+    if (confirmAction) {
+        window.open("quizPage.html");
+    } else {
+        alert("Action canceled");
+    }
+}
+*/

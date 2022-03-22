@@ -42,10 +42,19 @@
                 <p>Time Limit: None</p>
                 <p>Attempts: Unlimited</p>
                 <div id="startButton">
-                    <!-- I have added the script code for function in bundle.js no need to declare myfunction() here-->
                     <button name="start" type="button" onclick="myFunction()">
               Start
             </button>
+                    <script>
+                        function myFunction() {
+                            let confirmAction = confirm("You're about to take a quiz.");
+                            if (confirmAction) {
+                                window.open("quizPage.html");
+                            } else {
+                                alert("Action canceled");
+                            }
+                        }
+                    </script>
                 </div>
             </div>
             <div id="quizBox">

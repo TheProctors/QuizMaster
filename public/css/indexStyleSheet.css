@@ -102,6 +102,10 @@ a {
 
 #siteBody button {
     margin-bottom: 10px;
+    background-color: #388087;
+    width: auto;
+    font-size: 20px;
+    padding: 10px;
 }
 
 #news {

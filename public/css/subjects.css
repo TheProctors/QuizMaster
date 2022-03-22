@@ -1,28 +1,13 @@
 /*only adding components specific to the body of the page. The rest of the css can imported with the index*/
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 html,
 body {
-    background-color: #fed9ff;
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    text-align: center;
-    padding: 20px;
-    height: 100%;
-}
-
-#container {
-    min-height: 100%;
+    height: 106%;
 }
 
 #courses {
     min-height: 100%;
-    overflow: scroll;
+    overflow: auto;
     scrollbar-face-color: #388087;
     padding-bottom: 100px;
     text-align: center;

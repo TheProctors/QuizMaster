@@ -31,10 +31,22 @@
                 </p>
             </div>
             <div id="siteBody">
-                <p>Take a sample quiz.</p>
+                <p style="font-weight: bold;">Take a sample quiz.</p>
                 <button name="start" type="button" onclick="sampleQuiz()">
             Sample Quiz
           </button>
+                <script>
+                    function sampleQuiz() {
+                        let confirmAction = confirm(
+                            "You're about to take a sample quiz."
+                        );
+                        if (confirmAction) {
+                            window.open("sampleQuiz.html");
+                        } else {
+                            alert("Action canceled");
+                        }
+                    }
+                </script>
                 <div id="news">
                     <h3>Latest Quizzes</h3>
                     <p>
