@@ -1,6 +1,6 @@
 /*only adding components specific to the body of the page. The rest of the css can imported with the index*/
 
-img {
+.headshot {
     border: 5px solid #badfe7;
     height: 240px;
     width: 260px;

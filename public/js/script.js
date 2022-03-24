@@ -8,8 +8,12 @@ $(function() {
 $(function() {
     $("#footer").load("./common/footer.html");
 });
-
+// Function to load the header bar onto #header id tag in html files.
+$(function() {
+    $("#header").load("./common/header.html");
+}); 
 // End of jQuery ]
+
 // Start of firebase
 // Import statements for google firebase
 import { getFirestore, collection, getDocs } from "firebase/firestore";

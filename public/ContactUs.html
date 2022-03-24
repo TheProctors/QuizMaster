@@ -7,15 +7,16 @@
 
     <link rel="stylesheet" href="./css/indexStyleSheet.css" />
     <link rel="stylesheet" href="./css/contactUs.css" />
+        <!--jQuery source file-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!--JavaScript project file-->
+        <script src="./dist/bundle.js"></script>
 </head>
 
 <body>
     <div id="wrapper">
         <!--siteHeading div controls the title of the webpage.-->
-        <div id="siteHeading">
-            <h1>Quiz Master</h1>
-            <h2>This site is still in develpment</h2>
-        </div>
+        <div id="header"></div>
 
         <!--The menu bar and the main content of the page are stored in a container div.
             This helps ensure a column style layout.-->
@@ -28,7 +29,7 @@
             <div id="teamPictures">
                 <figure>
                     <figcaption>Matt Stewart</figcaption>
-                    <img src="./img/matt.jpg" alt="headshot" usemap="#mattMap" />
+                    <img class="headshot" src="./img/matt.jpg" alt="headshot" usemap="#mattMap" />
                     <map name="mattMap">
               <area
                 shape="default"
@@ -46,7 +47,7 @@
 
                 <figure>
                     <figcaption>Henri Alvarez</figcaption>
-                    <img src="./img/henri.jpg" alt="henri" usemap="#henriMap" />
+                    <img class="headshot" src="./img/henri.jpg" alt="henri" usemap="#henriMap" />
                     <map name="henriMap">
               <area
                 shape="default"
@@ -64,7 +65,7 @@
 
                 <figure>
                     <figcaption>Kate Correa</figcaption>
-                    <img src="./img/kate.jpg" alt="kate" usemap="#katemap" />
+                    <img  class="headshot"src="./img/kate.jpg" alt="kate" usemap="#katemap" />
                     <map name="katemap">
               <area
                 shape="default"
@@ -82,7 +83,7 @@
 
                 <figure>
                     <figcaption>Yasir Tahir</figcaption>
-                    <img src="./img/yasir.jpeg" alt="yasir" usemap="#yasirmap" />
+                    <img class="headshot" src="./img/yasir.jpeg" alt="yasir" usemap="#yasirmap" />
                     <map name="yasirmap">
               <area
                 shape="default"
@@ -100,7 +101,7 @@
 
                 <figure>
                     <figcaption>Cortez Banks</figcaption>
-                    <img src="./img/Cortez.jpg" alt="cortez" usemap="#cortezMap" />
+                    <img class="headshot" src="./img/Cortez.jpg" alt="cortez" usemap="#cortezMap" />
                     <map name="cortezMap">
               <area
                 shape="default"
