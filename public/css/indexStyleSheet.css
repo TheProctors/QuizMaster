@@ -79,7 +79,7 @@ a {
     Now floated right for menu bar.
 */
 
-#siteDescription {
+#pageHeading {
     background-color: #F6F6F2;
     float: center;
     /*Float right now to account for menu bar.*/

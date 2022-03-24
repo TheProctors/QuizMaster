@@ -16,7 +16,7 @@ body {
     min-height: 100%;
     overflow: auto;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -30,10 +30,6 @@ body {
     margin-bottom: 20px;
 }
 
-#courseHeading {
-    text-align: left;
-    padding-bottom: 20px;
-}
 
 h4 {
     text-align: top;
