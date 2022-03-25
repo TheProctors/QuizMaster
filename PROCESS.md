@@ -36,9 +36,11 @@ The second definition applies to general site/sprint requirements. Done in this 
 
 • The code is error free when run in the testing branch.
 
-• The code is well commented/documented
+• The code is well commented/documented.
 
-• The code has been reviewed by another team member
+• The code has been reviewed by another team member.
 
 • The code is implemented in the production branch and the production branch runs as intended.
+
+• The production branch is deployed to the product firebase hosting site.
 
