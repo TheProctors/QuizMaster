@@ -12,7 +12,7 @@ To separate testing from production, this repository has two branches. The main 
 
 ### System Process and Configuration with Azure
 
-The CI/CD is set up and properly connected to the repository for QuizMaster. The application is set up as static web application. There is a generic index.html for main. When there are any versions of code available it will be set up through the additional branches created for testing. 
+The CI/CD is set up and properly connected to the repository for QuizMaster. The application is set up as static web application. There is a generic index.html for main. When there are any versions of code available it will be set up through the additional branches created for testing. The testing branch is tested using a live server extension through Visual Studio Code. This will test the testing branch to a local server. The Production branch (main) is connected to firebase. Main contains the code for deployment connected to the production URL. 
 
 ### New User Configuration
 
