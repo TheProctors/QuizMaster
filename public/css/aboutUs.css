@@ -1,34 +1,5 @@
-/* Heading for the site */
-
-
-/* We are already getting this stuff from the indexStyleSheet.css so we don't need to add this here again that's why I have commented out it(yasir)*/
-
-
-/*
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html,
-body {
-    height: 100%;
-}
-*/
-
-#siteHeading {
-    background-color: #388087;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-bottom: 45px;
-}
-
-
-/* Wrapper containing all content */
-
 #wrapper {
-    min-height: 89.5%;
+    min-height: 86%;
     overflow: auto;
     text-align: center;
     margin-left: 15%;
