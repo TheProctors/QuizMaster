@@ -39,13 +39,19 @@ History
 
 html,
 body {
-    height: 100%;
+    height: auto;
     background-color: #F6F6F2;
 }
 
 #wrapper {
     min-height: 100%;
     overflow: auto;
+}
+
+#sample_quiz_wrapper {
+    min-height: 100%;
+    overflow: auto;
+    padding-bottom: 90px;
 }
 
 #pageElements {
@@ -93,7 +99,7 @@ a {
 #siteBody {
     min-height: 100%;
     overflow: auto;
-    padding-bottom: 50px;
+    padding-bottom: 130px;
     text-align: center;
     margin-top: 50px;
     margin-left: 20%;
@@ -106,6 +112,7 @@ a {
     width: auto;
     font-size: 20px;
     padding: 10px;
+    border-radius: 10px;
 }
 
 #news {
@@ -117,7 +124,7 @@ a {
     margin-bottom: 20px;
 }
 
-#news h3 {
+#news h4 {
     font-family: italic;
     text-decoration: underline;
     padding: 5px;
@@ -125,22 +132,42 @@ a {
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    width: 19%;
+    width: auto;
     height: auto;
+}
+
+#latest_quiz_images div img {
+    width: 200px;
+    height: 150px;
+}
+
+#latest_quiz_images div p {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#trending_quiz_images div img {
+    width: 200px;
+    height: 150px;
+}
+
+#trending_quiz_images div p {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 @keyframes example {
     0% {
-        background-color: red;
+        background-color: #ff4040;
     }
     25% {
         background-color: yellow;
     }
     50% {
-        background-color: blue;
+        background-color: #00BFFF;
     }
     100% {
-        background-color: green;
+        background-color: #018749;
     }
 }
 
@@ -152,6 +179,10 @@ a {
     padding: 5px;
     text-decoration: underline;
     color: #388087;
+}
+
+#sample_quiz {
+    padding-top: 20px;
 }
 
 #quiz {
@@ -205,6 +236,19 @@ a {
 
 #question7 {
     padding-bottom: 50px;
+}
+
+#submit_button {
+    text-align: center;
+}
+
+#submit_button button {
+    margin-bottom: 10px;
+    background-color: #388087;
+    width: auto;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 

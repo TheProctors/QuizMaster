@@ -2,21 +2,24 @@
 
 html,
 body {
-    height: 106%;
+    height: auto;
 }
 
 #courses {
     min-height: 100%;
     overflow: auto;
     scrollbar-face-color: #388087;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     text-align: center;
     margin-top: 50px;
     margin-left: 20%;
     margin-right: 20%;
-    
 }
+
+
 /*taking this out because the addition of page headings on each page*/
+
+
 /* #subject_heading h1 {
     text-align: left;
     padding-bottom: 20px;
