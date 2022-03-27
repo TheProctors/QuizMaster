@@ -15,12 +15,15 @@
 
 <body>
     <div id="wrapper">
-        <!--siteHeading div controls the title of the webpage.-->
+        <!--header id reference to load site logo-->
         <div id="header"></div>
-
+        <!--pageHeading div controls the title of the webpage.-->
+        <div id="pageHeading">
+        <h1>Contact Us</h1>
+        </div>
         <!--The menu bar and the main content of the page are stored in a container div.
             This helps ensure a column style layout.-->
-        <div id="pageElements">
+            <div id="pageElements">
             <!--Menu bar to go in this space.-->
             <!--id main-menu is referenced by jquery to load the menu bar.-->
             <div id="main-menu"></div>
@@ -116,11 +119,12 @@
               >
             </address>
                 </figure>
+                <p id="contact-us-paragraph">Please contact one of our team members and we will get back to you.
+                </p>
             </div>
-            <p id="contact-us-paragraph">
-                Please contact one of our team members and we will get back to you.
-            </p>
-        </div>
+
+          </div>
+
     </div>
     <!--Footer being referenced by jQuery to open up footer html-->
     <div id="footer"></div>

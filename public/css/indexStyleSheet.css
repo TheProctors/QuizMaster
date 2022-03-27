@@ -72,13 +72,13 @@ a {
     margin adjusted to account for nav bar.
 */
 
-#siteHeading {
+/* #siteHeading {
     background-color: #388087;
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
     margin-left: 65px;
-}
+} */
 
 
 /*Main content styling.
@@ -86,15 +86,19 @@ a {
 */
 
 #pageHeading {
-    background-color: #F6F6F2;
+    background-color: #badfe7;
     float: center;
     /*Float right now to account for menu bar.*/
-    margin-left: 65px;
+    margin-left: 20px;
     /*Adjusted to account for menu bar size.*/
     text-align: center;
     color: #388087;
     padding: 15px 15px;
 }
+#pageHeading p {
+        font-size: 20px;
+}
+
 
 #siteBody {
     min-height: 100%;

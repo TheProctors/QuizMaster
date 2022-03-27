@@ -24,23 +24,24 @@
 
 <body>
     <div id="wrapper">
-        <!--siteHeading div controls the title of the webpage.-->
+
         <!--header being referenced by jQuery to open up header html-->
         <div id="header"></div>
-
-        <!--The menu bar and the main content of the page are stored in a container div.
-            This helps ensure a column style layout.-->
-        <div id="pageElements"></div>
-        <!--Menu bar to go in this space.-->
-        <!--id main-menu is referenced by jquery to load the menu bar.-->
-        <div id="main-menu"></div>
-
-        <!--Main content of homepage goes here.-->
+        <!--pageHeading div controls the title of the webpage.-->
         <div id="pageHeading">
             <p>
                 Welcome to Quiz Master! Currently, this site is still being developed but keep an eye out for future updates. Current plans include adding a menu bar and more css.
             </p>
         </div>
+        <!--The menu bar and the main content of the page are stored in a container div.
+            This helps ensure a column style layout.-->
+        <div id="pageElements">
+        <!--Menu bar to go in this space.-->
+        <!--id main-menu is referenced by jquery to load the menu bar.-->
+        <div id="main-menu"></div>
+
+        <!--Main content of homepage goes here.-->
+
         <div id="siteBody">
             <div id="news">
                 <h4>Latest Quizzes</h4>
@@ -135,6 +136,7 @@
                     }
                 }
             </script>
+        </div>
         </div>
     </div>
     <!--Footer being referenced by jQuery to open up footer html-->
