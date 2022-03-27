@@ -13,8 +13,17 @@ $(function() {
     $("#header").load("./common/header.html");
 }); 
 // End of jQuery ]
+//Function to load confirmation for quiz and redirect to quiz page)
+$('#confirmStart').on('click',async() => {
+    let confirmAction = confirm("You're about to take a quiz.");
+    if (confirmAction) {
+        window.open("quizPage.html");
+    } else {
+        alert("Action canceled");
+    }
+})
 
-// Start of firebase
+// Start of firebase;
 // Import statements for google firebase
 import { getFirestore, collection, getDocs } from "firebase/firestore";
 import { initializeApp } from "firebase/app";

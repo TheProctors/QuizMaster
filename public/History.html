@@ -42,19 +42,11 @@
                 <p>Time Limit: None</p>
                 <p>Attempts: Unlimited</p>
                 <div id="startButton">
-                    <button name="start" type="button" onclick="myFunction()">
+                    <!--id confirmStart is referenced by jquery to load a confirm form and redirect to quiz page-->
+                    <button id="confirmStart" name="start" type="button" onclick="myFunction()">
               Start
             </button>
-                    <script>
-                        function myFunction() {
-                            let confirmAction = confirm("You're about to take a quiz.");
-                            if (confirmAction) {
-                                window.open("quizPage.html");
-                            } else {
-                                alert("Action canceled");
-                            }
-                        }
-                    </script>
+
                 </div>
             </div>
             <div id="quizBox">
@@ -66,9 +58,8 @@
                 <p>Time Limit: None</p>
                 <p>Attempts: Unlimited</p>
                 <div id="startButton">
-                    <button name="start" type="button" onclick="myFunction()">
-              Start
-            </button>
+                    <!--id confirmStart is referenced by jquery to load a confirm form and redirect to quiz page-->
+                    <button  id="confirmStart" name="start" type="button" onclick="myFunction()">Start</button>  
                 </div>
             </div>
             <div>
