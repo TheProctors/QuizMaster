@@ -3,7 +3,11 @@
     text-align: center;
     clear: both;
     display: block;
-    padding-bottom: 10px;
+    padding-bottom: 39px;
     padding-top: 10px;
     margin-left: 65px;
+}
+
+.logo {
+    margin-right: 60px;
 }

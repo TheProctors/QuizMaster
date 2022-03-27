@@ -10,20 +10,23 @@
 </head>
 
 <body>
-    <div id="wrapper">
+    <div id="sample_quiz_wrapper">
+        <!--header being referenced by jQuery to open up header html-->
+        <div id="header"></div>
+
         <!--siteHeading div controls the title of the webpage.-->
-        <div id="siteHeading">
+        <div id="pageHeading">
             <h1>Quiz Master</h1>
         </div>
+
         <!--The menu bar and the main content of the page are stored in a container div.
             This helps ensure a column style layout.-->
         <div id="pageElements"></div>
+
         <!--Menu bar to go in this space.-->
         <!--id main-menu is referenced by jquery to load the menu bar.-->
-
+        <div id="main-menu"></div>
         <div id="quiz">
-            <div id="main-menu"></div>
-
             <div id="quizHeading">
                 <h1>Sample Quiz</h1>
             </div>
@@ -55,6 +58,9 @@
 
                 <div id="question7">
                     <h4>Question 7</h4>
+                </div>
+                <div id="submit_button">
+                    <button>Submit</button>
                 </div>
             </div>
         </div>
@@ -101,10 +107,5 @@
     <!--JavaScript project file-->
     <script src="./dist/bundle.js"></script>
 </body>
-<!--
-readTextFile("./js/computerScience.json", function(text) {
-    var data = JSON.parse(text);
-    console.log(data.quizQuestions.q1);
--->
 
 </html>

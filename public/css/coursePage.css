@@ -5,12 +5,12 @@
     margin: 0;
     padding: 0;
 }
+*/
 
 html,
 body {
     height: 100%;
 }
-*/
 
 #quizList {
     min-height: 100%;
@@ -29,7 +29,6 @@ body {
     background-color: #badfe7;
     margin-bottom: 20px;
 }
-
 
 h4 {
     text-align: top;

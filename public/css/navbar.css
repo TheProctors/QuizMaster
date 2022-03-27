@@ -20,7 +20,7 @@ body {
     /*border-bottom-right-radius: 10px; Commented out to take rounding off menu bar. Leaves no whitespace
         where header meets menu bar.
     */
-    box-shadow: 0px 0px 20px #badfe7;
+    /*box-shadow: 0px 0px 20px #badfe7; nav bar looks better without the light border color*/
     width: 65px;
     height: 100vh;
     position: fixed;
