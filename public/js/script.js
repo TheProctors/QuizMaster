@@ -65,6 +65,7 @@ if (document.querySelector(".sign-up")) {
                 alert("user created and signed in");
                 console.log("user created:", cred.user);
                 signupForm.reset();
+                window.location.href = "./index.html";
             })
             .catch((err) => {
                 alert(err.message);
@@ -102,6 +103,7 @@ if (document.querySelector(".log-in")) {
                 alert("logged in");
                 console.log("user logged in:", cred.user);
                 loginForm.reset();
+                window.location.href = "./index.html";
             })
             .catch((err) => {
                 console.log(err.message);
