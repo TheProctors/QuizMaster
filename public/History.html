@@ -6,21 +6,21 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>QuizMaster-Science</title>
+    <title>QuizMaster-History</title>
 
     <link rel="stylesheet" href="./css/indexStyleSheet.css" />
     <link rel="stylesheet" href="./css/coursePage.css" />
     <!--jQuery source file-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
 </head>
 
 <body>
     <div id="wrapper">
         <!--siteHeading div controls the title of the webpage.-->
-        <div id="header"></div>  
-        <!--Title page heading-->
-          <div id="pageHeading">
-            <h1>Science Quizzes</h1>
+        <div id="header"></div> 
+        <div id="pageHeading">
+            <h1>History Quizzes</h1>
         </div>
     
         <!--The menu bar and the main content of the page are stored in a container div.
@@ -33,10 +33,9 @@
         <!--Main content here.-->
 
         <div id="quizList">
-
             <div id="quizBox">
-                <h4>Science Quiz 1</h4>
-                <p>This is a science quiz description.</p>
+                <h4>History Quiz 1</h4>
+                <p>This is a history quiz description.</p>
                 <p></p>
                 <p>Questions: 7</p>
                 <p>Maximum Points: 24 Points</p>
@@ -51,8 +50,8 @@
                 </div>
             </div>
             <div id="quizBox">
-                <h4>Science Quiz 2</h4>
-                <p>This is a science quiz description.</p>
+                <h4>History Quiz 2</h4>
+                <p>This is a history quiz description.</p>
                 <p></p>
                 <p>Questions: 7</p>
                 <p>Maximum Points: 24 Points</p>
@@ -60,8 +59,11 @@
                 <p>Attempts: Unlimited</p>
                 <div id="startButton">
                     <!--id confirmStart is referenced by jquery to load a confirm form and redirect to quiz page-->
-                    <button id="confirmStart" name="start" type="button" onclick="myFunction()">Start</button>
+                    <button  id="confirmStart" name="start" type="button" onclick="myFunction()">Start</button>  
                 </div>
+            </div>
+            <div>
+                <div></div>
             </div>
         </div>
     </div>

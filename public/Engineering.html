@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>QuizMaster-Science</title>
+    <title>QuizMaster-Engineering</title>
 
     <link rel="stylesheet" href="./css/indexStyleSheet.css" />
     <link rel="stylesheet" href="./css/coursePage.css" />
@@ -16,16 +16,16 @@
 
 <body>
     <div id="wrapper">
-        <!--siteHeading div controls the title of the webpage.-->
-        <div id="header"></div>  
-        <!--Title page heading-->
-          <div id="pageHeading">
-            <h1>Science Quizzes</h1>
+        <!--header id reference to load site logo/heading.-->
+        <div id="header"></div> 
+        <!--pageHeading div controls the title of the webpage.-->
+        <div id="pageHeading">
+            <h1>Engineering Quizzes</h1>
         </div>
     
         <!--The menu bar and the main content of the page are stored in a container div.
             This helps ensure a column style layout.-->
-        <div id="pageElements"></div>
+        <div id="pageElements">
         <!--Menu bar to go in this space.-->
         <!--id main-menu is referenced by jquery to load the menu bar.-->
         <div id="main-menu"></div>
@@ -33,26 +33,11 @@
         <!--Main content here.-->
 
         <div id="quizList">
-
             <div id="quizBox">
-                <h4>Science Quiz 1</h4>
-                <p>This is a science quiz description.</p>
-                <p></p>
-                <p>Questions: 7</p>
-                <p>Maximum Points: 24 Points</p>
-                <p>Time Limit: None</p>
-                <p>Attempts: Unlimited</p>
-                <div id="startButton">
-                    <!--id confirmStart is referenced by jquery to load a confirm form and redirect to quiz page-->
-                    <button id="confirmStart" name="start" type="button" onclick="myFunction()">
-              Start
-            </button>
-
-                </div>
-            </div>
-            <div id="quizBox">
-                <h4>Science Quiz 2</h4>
-                <p>This is a science quiz description.</p>
+                <h4>HTML/CSS</h4>
+                <p>
+                    This will test your knowledge on HTML and CSS a used in web development.
+                </p>
                 <p></p>
                 <p>Questions: 7</p>
                 <p>Maximum Points: 24 Points</p>
@@ -63,7 +48,24 @@
                     <button id="confirmStart" name="start" type="button" onclick="myFunction()">Start</button>
                 </div>
             </div>
+            <div id="quizBox">
+                <h4>Engineering Quiz2</h4>
+                <p>This is an Engineering quiz description.</p>
+                <p></p>
+                <p>Questions: 7</p>
+                <p>Maximum Points: 24 Points</p>
+                <p>Time Limit: None</p>
+                <p>Attempts: Unlimited</p>
+                <div id="startButton">
+                    <!--id confirmStart is referenced by jquery to load a confirm form and redirect to quiz page-->
+                    <button id="confirmStart" name="start" type="button" onclick="myFunction()">Start</button>
+                </div>
+            </div>
+            <div>
+                <div></div>
+            </div>
         </div>
+    </div>
     </div>
     <!--Footer being referenced by jQuery to open up footer html-->
     <div id="footer"></div>
