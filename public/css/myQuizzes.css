@@ -30,10 +30,22 @@ table {
     margin-right: 20%;
     
 }
+tr{
+    border-bottom: solid 1px;
+
+}
 th{
     padding: 5px 200px 10px 10px;
     text-align: left;
+    border-bottom: solid 2px;
+    font-size: 22px;
 
+}
+td{
+    padding: 5px 200px 10px 10px;
+    text-align: left;
+    border-bottom: solid 1px;
+    font-size: 18px;
 }
 .last{
     text-align: right;
