@@ -27,17 +27,26 @@ Guest will be added as users with a guest perspective. This way they will not be
 We define done in two ways. The first is in relation to user stories in the production GitHub repository. 
 First requirements of “DONE”: 
 • The hypothetical user in the story can successfully complete the desired action.
+
 • The user story or the desired feature can be executed via the production branch by a user.
+
 • The code is error free when run in the testing branch.
+
 • The code is well commented/documented.
+
 • The code has been reviewed by another team member.
+
 • The code is implemented in the production branch and the production branch runs as intended.
+
 • The production branch is deployed to the product firebase hosting site.
+
 • The user stories are demoed before deploying to the production site.
  
 The second definition is in relation to user stories in the testing GitHub repository. When the project’s structure needs to be redone for the production repository, then “DONE” is defined in the following ways:
 
 Second requirements of “DONE”: 
 • The user stories are demoed before the team and deployed to a testing firebase URL using the testing repository. 
+
 • The Testing project should have Firebase Deployment, Node, Express, MongoDB connected.
+
 • The user stories are working properly inside of the testing project ready to demo to the professor.
