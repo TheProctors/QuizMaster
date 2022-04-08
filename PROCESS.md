@@ -26,6 +26,7 @@ Guest will be added as users with a guest perspective. This way they will not be
 
 We define done in two ways. The first is in relation to user stories in the production GitHub repository. 
 First requirements of “DONE”: 
+
 • The hypothetical user in the story can successfully complete the desired action.
 
 • The user story or the desired feature can be executed via the production branch by a user.
