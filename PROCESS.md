@@ -42,10 +42,12 @@ First requirements of “DONE”:
 • The production branch is deployed to the product firebase hosting site.
 
 • The user stories are demoed before deploying to the production site.
+
  
 The second definition is in relation to user stories in the testing GitHub repository. When the project’s structure needs to be redone for the production repository, then “DONE” is defined in the following ways:
 
 Second requirements of “DONE”: 
+
 • The user stories are demoed before the team and deployed to a testing firebase URL using the testing repository. 
 
 • The Testing project should have Firebase Deployment, Node, Express, MongoDB connected.
