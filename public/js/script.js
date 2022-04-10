@@ -12,7 +12,6 @@ $(function() {
 $(function() {
     $("#header").load("./common/header.html");
 }); 
-// End of jQuery ]
 //Function to load confirmation for quiz and redirect to quiz page)
 $('#confirmStart').on('click',async() => {
     let confirmAction = confirm("You're about to take a quiz.");
@@ -22,6 +21,8 @@ $('#confirmStart').on('click',async() => {
         alert("Action canceled");
     }
 })
+
+// End of jQuery ]
 
 // Start of firebase;
 // Import statements for google firebase

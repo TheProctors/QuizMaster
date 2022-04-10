@@ -5,7 +5,7 @@ body {
 }
 
 .bodyContent{
-    
+    min-height: 100%;
     overflow: auto;
     text-align: center;
     margin-top: 50px;
@@ -51,3 +51,13 @@ td{
     text-align: right;
     padding-right: -50px;
 }
+td a{
+    color: #388087;
+}
+td a:hover{
+    color: #6fb3b8;
+}
+td a:active{
+    color: #6fb3b8;
+}
+
