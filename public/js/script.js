@@ -84,6 +84,8 @@ setTimeout(() => {
             .then(() => {
                 alert("signed out");
                 console.log("user signed out");
+                //redirect back to home
+                window.location.href = "./index.html";
             })
             .catch((err) => {
                 console.log(err.message);
@@ -112,6 +114,7 @@ if (document.querySelector(".log-in")) {
     });
 } else {
     //console.log("This page does not contain login class, or not in sign in page");
+
 }
 
 // Tracks whether user is logged in or not (tracks state).
